@@ -1,13 +1,13 @@
 #include <iostream>
-#include "../../main/cpp/Bezier.h"
-#include "../../main/cpp/BSpline.h"
-#include "../../main/cpp/CatmullRom.h"
+#include <Bezier.h>
+#include <BSpline.h>
+#include <CatmullRom.h>
 
 void demo_bezier();
 void demo_bspline();
 void demo_catmullrom();
 
-int main(char** argv, int argc) {
+int main(int, char**) {
 	demo_bezier();
 	demo_bspline();
 	demo_catmullrom();
