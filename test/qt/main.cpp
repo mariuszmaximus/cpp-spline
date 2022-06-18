@@ -21,10 +21,10 @@ std::vector<QPointF> points = {
         QPointF(3,2),
         QPointF(4,6),
 
-        QPointF(5,1),
-        QPointF(6,3),
-        QPointF(7,2),
-        QPointF(8,6),
+        // QPointF(5,1),
+        // QPointF(6,3),
+        // QPointF(7,2),
+        // QPointF(8,6),
 
         };
 
@@ -112,9 +112,9 @@ int main(int argc, char *argv[])
     //
     chart->addSeries(demo_bezier());
     // //
-    chart->addSeries(demo_bspline());
+    //chart->addSeries(demo_bspline());
     // // //
-    chart->addSeries(demo_catmullrom());
+    //chart->addSeries(demo_catmullrom());
 
     chart->createDefaultAxes();
 
