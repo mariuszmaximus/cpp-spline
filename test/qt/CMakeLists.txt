@@ -8,7 +8,7 @@ set(CMAKE_AUTOUIC ON)
 
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core)
-    message(STATUS "QNANOPAINTER QT VERSION=${QT_VERSION_MAJOR}")
+    message(STATUS "QT VERSION=${QT_VERSION_MAJOR}")
 if(QT_VERSION_MAJOR EQUAL  6)
     find_package(Qt6 REQUIRED COMPONENTS Widgets OpenGL Quick OpenGLWidgets)
     set(QNANOPAINTER_QT_LIBS  Qt6::Widgets Qt6::OpenGL Qt6::Quick Qt6::OpenGLWidgets)
