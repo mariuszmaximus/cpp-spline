@@ -114,7 +114,7 @@ int main(int argc, char *argv[])
     // //
     //chart->addSeries(demo_bspline());
     // // //
-    //chart->addSeries(demo_catmullrom());
+    chart->addSeries(demo_catmullrom());
 
     chart->createDefaultAxes();
 
